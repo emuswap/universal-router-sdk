@@ -147,6 +147,22 @@ const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
     wsteth: NOT_SUPPORTED_ON_CHAIN,
     creationBlock: 3229053,
   },
+  // zircuit
+  [48900]: {
+    router: '0x76CecacdF5C2Cbc89334B1a3162AE415c8629E73',
+    weth: '0xB624103Eb622d655dd834B694Aa6EA0363f2A156',
+    steth: NOT_SUPPORTED_ON_CHAIN,
+    wsteth: NOT_SUPPORTED_ON_CHAIN,
+    creationBlock: 10380055,
+  },
+  // zircuit seplia 
+  [48899]: {
+    router: '0x76CecacdF5C2Cbc89334B1a3162AE415c8629E73',
+    weth: '0xB624103Eb622d655dd834B694Aa6EA0363f2A156',
+    steth: NOT_SUPPORTED_ON_CHAIN,
+    wsteth: NOT_SUPPORTED_ON_CHAIN,
+    creationBlock: 10380055,
+  },
 }
 
 export const UNIVERSAL_ROUTER_ADDRESS = (chainId: number): string => {
