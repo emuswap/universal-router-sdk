@@ -149,7 +149,7 @@ const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
   },
   // zircuit
   [48900]: {
-    router: '0x76CecacdF5C2Cbc89334B1a3162AE415c8629E73',
+    router: '0xaf383F040919E0A815Dba3103AA9AA26f7929A92',
     weth: '0xB624103Eb622d655dd834B694Aa6EA0363f2A156',
     steth: NOT_SUPPORTED_ON_CHAIN,
     wsteth: NOT_SUPPORTED_ON_CHAIN,
@@ -157,7 +157,7 @@ const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
   },
   // zircuit seplia 
   [48899]: {
-    router: '0x76CecacdF5C2Cbc89334B1a3162AE415c8629E73',
+    router: '0xaf383F040919E0A815Dba3103AA9AA26f7929A92',
     weth: '0xB624103Eb622d655dd834B694Aa6EA0363f2A156',
     steth: NOT_SUPPORTED_ON_CHAIN,
     wsteth: NOT_SUPPORTED_ON_CHAIN,
